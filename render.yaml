@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: apexvoip-backend
+    runtime: node
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: MONGODB_URI
+        sync: false
+      - key: REDIS_URL
+        sync: false

@@ -12,6 +12,7 @@ frontend/out/
 .env.local
 .env.production
 .env.development
+!*.env.example
 *.log
 npm-debug.log*
 
